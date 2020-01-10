@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="GetCP\Rest\Api\CategoryLinkInterface" type="GetCP\Rest\Model\CategoryLink" />
+
+    <preference for="GetCP\Rest\Api\Data\CategoryProductLinkInterface" type="GetCP\Rest\Model\CategoryProductLink" />
+
+    <preference for="GetCP\Rest\Api\AddProductInterface" type="GetCP\Rest\Model\AddProduct" />
+
+    <preference for="GetCP\Rest\Api\AddOrderInterface" type="GetCP\Rest\Model\AddOrder" />
+</config>

@@ -1,0 +1,8 @@
+{
+    "name": "getcp/rest",
+    "description": "rest",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
